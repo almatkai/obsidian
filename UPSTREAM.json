@@ -1,0 +1,671 @@
+{
+  "repository": "https://github.com/raycast/extensions",
+  "commit": "459326f4f557692a79246dba2d013746f56d724b",
+  "path": "extensions/obsidian",
+  "treeSha": "3c4434018108c8c872d7cd15c248209b888f704a",
+  "gitBlobs": {
+    ".gitignore": {
+      "sha1": "bd020bdbdad7d3b0da2c2d91ae111461d4679c27",
+      "mode": "100644",
+      "bytes": 1919
+    },
+    ".prettierrc": {
+      "sha1": "fc0f5030683fa6196d08943646300755fce2f207",
+      "mode": "100644",
+      "bytes": 48
+    },
+    "CHANGELOG.md": {
+      "sha1": "5829ac6f6726054cee387fc62b53de7714ecfc8e",
+      "mode": "100644",
+      "bytes": 16343
+    },
+    "CONTRIBUTING.md": {
+      "sha1": "68fb01b64a8492e951d79c9e53f8738362194e9c",
+      "mode": "100644",
+      "bytes": 1434
+    },
+    "DOCUMENTATION.md": {
+      "sha1": "e32ba027da146065e916738c5eba8ab8d582476d",
+      "mode": "100644",
+      "bytes": 2332
+    },
+    "LICENSE": {
+      "sha1": "1aa14925b127bc58d43f91570d738def3612352c",
+      "mode": "100644",
+      "bytes": 1076
+    },
+    "README.md": {
+      "sha1": "86331d818a8483fbd61d94ce53cb88b82866a54a",
+      "mode": "100644",
+      "bytes": 14040
+    },
+    "REFERENCE.md": {
+      "sha1": "d35ad1d96d9dc73fc9bc49b6f80c2ed58b49846d",
+      "mode": "100644",
+      "bytes": 8814
+    },
+    "ai.json": {
+      "sha1": "25eeacefa70e68a8f2452b747a3cab3515841ab9",
+      "mode": "100644",
+      "bytes": 2897
+    },
+    "assets/bookmark.svg": {
+      "sha1": "8081777e0e0dfd0429ca7ee3fdafa77b4144b1d3",
+      "mode": "100644",
+      "bytes": 312
+    },
+    "assets/extension_icon.png": {
+      "sha1": "8ebd9912f42eec3b10fb181070e0db448cc36ea2",
+      "mode": "100644",
+      "bytes": 42203
+    },
+    "assets/obsidian_icon.svg": {
+      "sha1": "91d32ca80f805995b4acde74fdeaf55fbd609f41",
+      "mode": "100644",
+      "bytes": 1311
+    },
+    "eslint.config.js": {
+      "sha1": "543274e97eca65e51e691710591f6f5244117287",
+      "mode": "100644",
+      "bytes": 160
+    },
+    "metadata/obsidian-1.png": {
+      "sha1": "2718658ec93ae4e76d082fbfd5c1a862abbfc0e5",
+      "mode": "100644",
+      "bytes": 2077525
+    },
+    "metadata/obsidian-10.png": {
+      "sha1": "b94742d4a9efe1738a7f07f4e4a828fdc396ab25",
+      "mode": "100644",
+      "bytes": 2253817
+    },
+    "metadata/obsidian-2.png": {
+      "sha1": "b4cd936e71de5cc9b25533687a3ef6bd527696ee",
+      "mode": "100644",
+      "bytes": 1986852
+    },
+    "metadata/obsidian-3.png": {
+      "sha1": "182758a7fe8715aad35cd13b90f6cac1df55ae40",
+      "mode": "100644",
+      "bytes": 2057227
+    },
+    "metadata/obsidian-4.png": {
+      "sha1": "fb3e2111a072f5af574912451296636ed8345d00",
+      "mode": "100644",
+      "bytes": 1935131
+    },
+    "metadata/obsidian-5.png": {
+      "sha1": "2805e4b003c4304172b4e9adaa2ad24f6aa2afe9",
+      "mode": "100644",
+      "bytes": 2156082
+    },
+    "metadata/obsidian-6.png": {
+      "sha1": "31b220a09fc55880e272cbdbc0a40418755ec640",
+      "mode": "100644",
+      "bytes": 2025292
+    },
+    "metadata/obsidian-7.png": {
+      "sha1": "f1868040750bc83e7fc9dfc271e09f5dc0fec5e0",
+      "mode": "100644",
+      "bytes": 1996723
+    },
+    "metadata/obsidian-8.png": {
+      "sha1": "e2ae1215c2ef0abab911a506de3e13fde4e17795",
+      "mode": "100644",
+      "bytes": 2000280
+    },
+    "metadata/obsidian-9.png": {
+      "sha1": "b6165ebfa144a19b6006d5dd4355f55aef4f056b",
+      "mode": "100644",
+      "bytes": 2151952
+    },
+    "package-lock.json": {
+      "sha1": "855f070de9bd269e127fa6c074ed4c574fd5b999",
+      "mode": "100644",
+      "bytes": 182303
+    },
+    "package.json": {
+      "sha1": "293af4d19823475637ca5362decb8270fe2f2050",
+      "mode": "100644",
+      "bytes": 24188
+    },
+    "skills/json-canvas/SKILL.md": {
+      "sha1": "b7375427721ea874131714dff61c58bd43638886",
+      "mode": "100644",
+      "bytes": 1222
+    },
+    "skills/obsidian-bases/SKILL.md": {
+      "sha1": "869f5350ed127fa26353bd2dbba239e3a28b0784",
+      "mode": "100644",
+      "bytes": 1281
+    },
+    "skills/obsidian-markdown/SKILL.md": {
+      "sha1": "f645f0ba812705fa3316314e0dc2b78e7eb2cc28",
+      "mode": "100644",
+      "bytes": 1937
+    },
+    "src/__mocks__/@raycast/api.ts": {
+      "sha1": "a046216627feb49d9a527f6d5b5c4f977bbe2218",
+      "mode": "100644",
+      "bytes": 473
+    },
+    "src/api/append-note.ts": {
+      "sha1": "e715c4401bca0212bc8ac27e030920eba34fe977",
+      "mode": "100644",
+      "bytes": 1222
+    },
+    "src/api/cache/cache.service.ts": {
+      "sha1": "0d63acffd6a768fe99b6cfe7a0e34a6a498b1122",
+      "mode": "100644",
+      "bytes": 3233
+    },
+    "src/api/create-note.ts": {
+      "sha1": "3a8fa3b7f0a5f90c35a181c71123716b71ebd5f9",
+      "mode": "100644",
+      "bytes": 3103
+    },
+    "src/api/custom-actions/custom-actions.service.ts": {
+      "sha1": "b5f138c2e6f4ca916e4ca2e6a18f42402fb3fb51",
+      "mode": "100644",
+      "bytes": 1280
+    },
+    "src/api/custom-actions/custom-actions.types.ts": {
+      "sha1": "0460913d0fd512b41c9187a91b071fc95365e948",
+      "mode": "100644",
+      "bytes": 575
+    },
+    "src/api/file/file.service.ts": {
+      "sha1": "40b8506b9dfb07e4954ed5bd07cfc5809c6c8bae",
+      "mode": "100644",
+      "bytes": 2006
+    },
+    "src/api/file/file.types.ts": {
+      "sha1": "27a2511101ee621e8fc5fc4ffc77ce51617569c9",
+      "mode": "100644",
+      "bytes": 121
+    },
+    "src/api/logger/logger.service.ts": {
+      "sha1": "39ccde4e845ceb8b1e7f80efdb7080818178452f",
+      "mode": "100644",
+      "bytes": 2219
+    },
+    "src/api/open-match/open-match.service.ts": {
+      "sha1": "ffa03a1b1fcfc43764e34d8ee2f1c192acf86f89",
+      "mode": "100644",
+      "bytes": 6625
+    },
+    "src/api/preferences/preferences.service.ts": {
+      "sha1": "91a1921cc95dc828998ee4d0f4cca09867d449fc",
+      "mode": "100644",
+      "bytes": 280
+    },
+    "src/api/quickCapture.service.ts": {
+      "sha1": "3ac222a977ebe91b17df6fc369ca441eb1d9cb16",
+      "mode": "100644",
+      "bytes": 2463
+    },
+    "src/api/search/content-match.service.ts": {
+      "sha1": "d637cd6e0edb57e14dca771f73ae361010df968f",
+      "mode": "100644",
+      "bytes": 8114
+    },
+    "src/api/search/note-preview.service.ts": {
+      "sha1": "1e8e2d0a49bd484ac64925802acfffea54e2d463",
+      "mode": "100644",
+      "bytes": 262
+    },
+    "src/api/search/search-request.service.ts": {
+      "sha1": "621ea733123ec7080bd9af4ab3b29f00dd88be2b",
+      "mode": "100644",
+      "bytes": 454
+    },
+    "src/api/search/search.service.ts": {
+      "sha1": "7d5ae30f895bfbbb5dcec9dda307c2c81b6c57b3",
+      "mode": "100644",
+      "bytes": 1720
+    },
+    "src/api/search/simple-content-search.service.ts": {
+      "sha1": "2847243083b4288e45b49f28686a129ca3daa78c",
+      "mode": "100644",
+      "bytes": 11884
+    },
+    "src/api/string/string.service.ts": {
+      "sha1": "31be8a7311bf5559af58453c9096827c3b4e6cc5",
+      "mode": "100644",
+      "bytes": 182
+    },
+    "src/api/templating/templates.ts": {
+      "sha1": "67e0955e37060310fcbd63dbec3071b993ebd455",
+      "mode": "100644",
+      "bytes": 3187
+    },
+    "src/api/templating/templating.service.ts": {
+      "sha1": "98ef0a76843eeba0ceca1b532adc2981ece4b45b",
+      "mode": "100644",
+      "bytes": 1041
+    },
+    "src/appendTaskCommand.tsx": {
+      "sha1": "1ddbe924c1888931972cfe54dfaf88df2c6317c4",
+      "mode": "100644",
+      "bytes": 5334
+    },
+    "src/components/ActionForm.tsx": {
+      "sha1": "faada8c86570c16132e0a22ab23e828ce09d5114",
+      "mode": "100644",
+      "bytes": 4477
+    },
+    "src/components/AppendNoteForm.tsx": {
+      "sha1": "1332fb3b9533a351e4501752068187ddc54d3f27",
+      "mode": "100644",
+      "bytes": 1692
+    },
+    "src/components/CreateNoteForm.tsx": {
+      "sha1": "c8ee73da15ce3b82080e389398ecf06a32963d77",
+      "mode": "100644",
+      "bytes": 2648
+    },
+    "src/components/EditNote.tsx": {
+      "sha1": "e14290f6ef5ee787bfe855f9f2298e395e89c43d",
+      "mode": "100644",
+      "bytes": 2069
+    },
+    "src/components/MediaGrid.tsx": {
+      "sha1": "3da2b4f93f289b2908dcf3e49ed9197c807385ab",
+      "mode": "100644",
+      "bytes": 3042
+    },
+    "src/components/NoteList/CreateNoteView.tsx": {
+      "sha1": "db030b7056042c6d85f71223e11bbf4ff2cfa4f4",
+      "mode": "100644",
+      "bytes": 1224
+    },
+    "src/components/NoteList/NoteList.tsx": {
+      "sha1": "c26b4e9889c16b9c982ad3400c4c93365226dd58",
+      "mode": "100644",
+      "bytes": 5492
+    },
+    "src/components/NoteList/NoteListDropdown.tsx": {
+      "sha1": "372d2e398d0675e64d13dbe205cc632b22024a79",
+      "mode": "100644",
+      "bytes": 1236
+    },
+    "src/components/NoteList/NoteListItem/NoteListItem.tsx": {
+      "sha1": "8710fafc5c2eceac609d6178a6244ed214e091e5",
+      "mode": "100644",
+      "bytes": 6278
+    },
+    "src/components/NoteList/NoteListObsidian.tsx": {
+      "sha1": "b1e5f1bc9aca3ba2858d7e5f67e50cd1d1c860c9",
+      "mode": "100644",
+      "bytes": 806
+    },
+    "src/components/NoteQuickLook.tsx": {
+      "sha1": "31876ee4645abefb576dd11a2eb7f6b70e43e55a",
+      "mode": "100644",
+      "bytes": 1058
+    },
+    "src/components/Notifications/AdvancedURIPluginNotInstalled.tsx": {
+      "sha1": "937d27ffa954aaef9c00328bc01e984dea98e012",
+      "mode": "100644",
+      "bytes": 978
+    },
+    "src/components/Notifications/NoPathProvided.tsx": {
+      "sha1": "e7fe486f50bdabb6e7fa6d2bcf19e06be8bd9227",
+      "mode": "100644",
+      "bytes": 210
+    },
+    "src/components/Notifications/NoVaultFoundMessage.tsx": {
+      "sha1": "e6c17c70295287354a2518427fe3d92a1497ef30",
+      "mode": "100644",
+      "bytes": 280
+    },
+    "src/components/RandomNote.tsx": {
+      "sha1": "d83489065b1604c33331ee4aa7cf9979ff1d6e62",
+      "mode": "100644",
+      "bytes": 767
+    },
+    "src/components/Toasts.tsx": {
+      "sha1": "b1cd106873433e77dca2a3d0b808cee7cddc9a49",
+      "mode": "100644",
+      "bytes": 1442
+    },
+    "src/components/VaultSelection.tsx": {
+      "sha1": "c0d4d5ca31053cf91ce7ba634a5ab4ccb07e0a37",
+      "mode": "100644",
+      "bytes": 775
+    },
+    "src/components/WorkspacesList.tsx": {
+      "sha1": "42c460a4d9cd196605d4e695852f6def9466f4e6",
+      "mode": "100644",
+      "bytes": 1912
+    },
+    "src/createNoteCommand.tsx": {
+      "sha1": "802dd1e14a178c215b45bbbf72590cd113003418",
+      "mode": "100644",
+      "bytes": 1786
+    },
+    "src/dailyNoteAppendCommand.tsx": {
+      "sha1": "4eac775e5e1a9c748514f45c3854a39fe776391c",
+      "mode": "100644",
+      "bytes": 4177
+    },
+    "src/dailyNoteCommand.tsx": {
+      "sha1": "d9aa1317308be2588d524b3d7303834fe1a7e36c",
+      "mode": "100644",
+      "bytes": 1980
+    },
+    "src/obsidian/index.ts": {
+      "sha1": "3c1d90393371a1a12bb913f960550d47bf142df5",
+      "mode": "100644",
+      "bytes": 4271
+    },
+    "src/obsidian/internal/bookmarks.ts": {
+      "sha1": "5325f07f2249dc6558c17fc860f61d6dfc5fa83d",
+      "mode": "100644",
+      "bytes": 4592
+    },
+    "src/obsidian/internal/callouts.ts": {
+      "sha1": "e4c79715ad79a7412557dd78c91cd655e69c9f36",
+      "mode": "100644",
+      "bytes": 5338
+    },
+    "src/obsidian/internal/notes.ts": {
+      "sha1": "ac1d0ebc29e5723be5731427d9ebe8965e8db42d",
+      "mode": "100644",
+      "bytes": 2053
+    },
+    "src/obsidian/internal/obsidian.ts": {
+      "sha1": "1cc857c43b34a6395c201045efc47648f7475e7e",
+      "mode": "100644",
+      "bytes": 6549
+    },
+    "src/obsidian/internal/plugins.ts": {
+      "sha1": "06cf89df1cf7494b1c0f709c03697f8a2ee7a626",
+      "mode": "100644",
+      "bytes": 3307
+    },
+    "src/obsidian/internal/vault.ts": {
+      "sha1": "f371e3e16ee511fa29d3241ab76378a234c1ba0e",
+      "mode": "100644",
+      "bytes": 5180
+    },
+    "src/obsidian/internal/workspaces.ts": {
+      "sha1": "93c245829b22317a633d518acd7109a9d8e89ea6",
+      "mode": "100644",
+      "bytes": 1059
+    },
+    "src/obsidian/internal/yaml.ts": {
+      "sha1": "e2e3d18cbafaf3c493a5e83145e6cf0f04a17f88",
+      "mode": "100644",
+      "bytes": 4401
+    },
+    "src/obsidianMenuBar.tsx": {
+      "sha1": "daff89fef1ff5ffd51163fb8fe63771108a968fb",
+      "mode": "100644",
+      "bytes": 3585
+    },
+    "src/openVaultCommand.tsx": {
+      "sha1": "e50db0368a0d2d49fa76d3e7e4845f6c79a1b9be",
+      "mode": "100644",
+      "bytes": 1893
+    },
+    "src/openWorkspaceCommand.tsx": {
+      "sha1": "1e7be5caefdf41ab1aee0fd9c8e68596cf9c90f0",
+      "mode": "100644",
+      "bytes": 1367
+    },
+    "src/quickCaptureCommand.tsx": {
+      "sha1": "d2dc59e3c0f9df887f69d122e6c88041f36c3b06",
+      "mode": "100644",
+      "bytes": 2020
+    },
+    "src/randomNoteCommand.tsx": {
+      "sha1": "fa4ca4163233ff3b373fb3d65b6d501d74ee44ed",
+      "mode": "100644",
+      "bytes": 970
+    },
+    "src/runActionCommand.tsx": {
+      "sha1": "11f76b631472c0c7a7ea97cf9a814b3e0c9dacbb",
+      "mode": "100644",
+      "bytes": 9628
+    },
+    "src/searchMedia.tsx": {
+      "sha1": "b99b362c71a717ce3a131cb862bf3d5d4b325ef1",
+      "mode": "100644",
+      "bytes": 1099
+    },
+    "src/searchNoteCommand.tsx": {
+      "sha1": "b8bd99ce484ea8841048055fcaacf2fa1949ff17",
+      "mode": "100644",
+      "bytes": 1209
+    },
+    "src/starredNotesCommand.tsx": {
+      "sha1": "0a29b44bcb7d2e50f38be4f4363246a115b667a0",
+      "mode": "100644",
+      "bytes": 1193
+    },
+    "src/tests/bookmarks.spec.ts": {
+      "sha1": "0aec81a40b9aa89229250d5ae3c95ce26ab5280b",
+      "mode": "100644",
+      "bytes": 7417
+    },
+    "src/tests/callouts.spec.ts": {
+      "sha1": "76ee5e60ea710978475f9c9747306cdf30c15bf7",
+      "mode": "100644",
+      "bytes": 20884
+    },
+    "src/tests/content-match.spec.ts": {
+      "sha1": "8c1e914d07a5609775f9f342b3ae884bf2688dea",
+      "mode": "100644",
+      "bytes": 11311
+    },
+    "src/tests/content-search-large-file.spec.ts": {
+      "sha1": "b3702029f3176aecf5e4034a88762f9cce91e75a",
+      "mode": "100644",
+      "bytes": 5463
+    },
+    "src/tests/content-search.spec.ts": {
+      "sha1": "c5405a069c8af1239f8ae30bc7bf3ec247ec4b36",
+      "mode": "100644",
+      "bytes": 15590
+    },
+    "src/tests/create-note.spec.ts": {
+      "sha1": "0a553e165825db9890f8df00a6e2c0faf9763413",
+      "mode": "100644",
+      "bytes": 7246
+    },
+    "src/tests/custom-actions.spec.ts": {
+      "sha1": "f16c89d21a6efc7298de4cb8d6c426d49c748ec7",
+      "mode": "100644",
+      "bytes": 2712
+    },
+    "src/tests/file.spec.ts": {
+      "sha1": "b1f7497d6e8d9222b806c804d30017efa99985c6",
+      "mode": "100644",
+      "bytes": 4069
+    },
+    "src/tests/helpers/createTemporaryVault.ts": {
+      "sha1": "4cb4bf689810c24fb06b0421baf515469632de68",
+      "mode": "100644",
+      "bytes": 2110
+    },
+    "src/tests/normalize-path.spec.ts": {
+      "sha1": "8e8b20197fac2805bbe6a6cdf19e5bfe0c23bab9",
+      "mode": "100644",
+      "bytes": 785
+    },
+    "src/tests/note-preview.spec.ts": {
+      "sha1": "1a3b956f775600161abbe2126a241a2af3f8b22f",
+      "mode": "100644",
+      "bytes": 715
+    },
+    "src/tests/notes.spec.ts": {
+      "sha1": "d3de690137808e43ffad6d854c092c7367517a77",
+      "mode": "100644",
+      "bytes": 10422
+    },
+    "src/tests/obsidian.spec.ts": {
+      "sha1": "2e8c40cbd6f3fbc443597c75663bbfa482715415",
+      "mode": "100644",
+      "bytes": 11715
+    },
+    "src/tests/open-match.spec.ts": {
+      "sha1": "907c5b3c4f12d5c222d37dd437467d407792f984",
+      "mode": "100644",
+      "bytes": 2391
+    },
+    "src/tests/plugins.spec.ts": {
+      "sha1": "d4b21c734eebefcc6560204bd65c27b1eca0439f",
+      "mode": "100644",
+      "bytes": 10049
+    },
+    "src/tests/preferences.spec.ts": {
+      "sha1": "7051e3a178e9dd621d42fcc11ba7c4c8804fe614",
+      "mode": "100644",
+      "bytes": 4361
+    },
+    "src/tests/quick-capture.spec.ts": {
+      "sha1": "f24350efc4776731a360dbc74f8d631f81e5efb9",
+      "mode": "100644",
+      "bytes": 5727
+    },
+    "src/tests/search-request.spec.ts": {
+      "sha1": "e63db0f7c8da874d01a33d0364339e6009168a9c",
+      "mode": "100644",
+      "bytes": 1246
+    },
+    "src/tests/search.spec.ts": {
+      "sha1": "4affa5a24d0ac01e12ff39e3fdbcac2843b4a0be",
+      "mode": "100644",
+      "bytes": 5027
+    },
+    "src/tests/sorting.spec.ts": {
+      "sha1": "c10b5d76db70bf47375011288b99528911c38a66",
+      "mode": "100644",
+      "bytes": 6936
+    },
+    "src/tests/string.spec.ts": {
+      "sha1": "fc4a2a67b8c91305ac0e134c87e3d40123bbcf58",
+      "mode": "100644",
+      "bytes": 1409
+    },
+    "src/tests/templating.spec.ts": {
+      "sha1": "18f46608bb2d99afb77ac04c5f0af56838041082",
+      "mode": "100644",
+      "bytes": 586
+    },
+    "src/tests/utils.spec.ts": {
+      "sha1": "00065227c4c7518fe69d19e4899e7dfe4febf159",
+      "mode": "100644",
+      "bytes": 12510
+    },
+    "src/tests/vault.spec.ts": {
+      "sha1": "2f628f792c2c9ec6ce7bcd256d1426a4f2c897bd",
+      "mode": "100644",
+      "bytes": 16687
+    },
+    "src/tests/workspaces.spec.ts": {
+      "sha1": "e16454180218407d85403beb46dfee9c76939ea2",
+      "mode": "100644",
+      "bytes": 7266
+    },
+    "src/tests/yaml-tags.spec.ts": {
+      "sha1": "60dd8f028f1c87a863f732986a1173790107693e",
+      "mode": "100644",
+      "bytes": 9381
+    },
+    "src/tools/appendNote.ts": {
+      "sha1": "211b471ecb8aa4abf2d59c1af9af9d65da753fa8",
+      "mode": "100644",
+      "bytes": 4867
+    },
+    "src/tools/createNote.ts": {
+      "sha1": "f34aa3f5f5d330a22251773e16e3d18fa6fa0ad3",
+      "mode": "100644",
+      "bytes": 2907
+    },
+    "src/tools/getVaults.ts": {
+      "sha1": "08788b62c40401b9094b3303b6081edfce30caac",
+      "mode": "100644",
+      "bytes": 570
+    },
+    "src/tools/openNote.ts": {
+      "sha1": "833aa2383f0b7f07d0c455e1c49dbb06a2f75cf3",
+      "mode": "100644",
+      "bytes": 1325
+    },
+    "src/tools/readNote.ts": {
+      "sha1": "f9abdbeb5a4fe9d726c0bcec4ae4d1c78af51e7d",
+      "mode": "100644",
+      "bytes": 1805
+    },
+    "src/tools/searchNote.ts": {
+      "sha1": "4c3bc73ae871c95ac226ffd58ffa177f4f45cc9f",
+      "mode": "100644",
+      "bytes": 3405
+    },
+    "src/tools/updateNote.ts": {
+      "sha1": "10dc6e2972fa33bbd3daa37fe32d9ca363bea312",
+      "mode": "100644",
+      "bytes": 2425
+    },
+    "src/utils/actions.tsx": {
+      "sha1": "ae7bd563a15b9db9c28089180f7c2807da30fe2a",
+      "mode": "100644",
+      "bytes": 17699
+    },
+    "src/utils/constants.ts": {
+      "sha1": "02831ccd9d581f264c429d591a7483c50dcfca89",
+      "mode": "100644",
+      "bytes": 2368
+    },
+    "src/utils/hooks.ts": {
+      "sha1": "581b0bec38dca8762e0a6f3ff9e730f83e8570ed",
+      "mode": "100644",
+      "bytes": 7068
+    },
+    "src/utils/interfaces.ts": {
+      "sha1": "b642dabc2e2b111f5c0248899a80233f65ffec13",
+      "mode": "100644",
+      "bytes": 313
+    },
+    "src/utils/open.ts": {
+      "sha1": "7513c9ce9e77b993c983764f51882703a4645414",
+      "mode": "100644",
+      "bytes": 541
+    },
+    "src/utils/preferences.ts": {
+      "sha1": "3bd09449827aef4ef017878b1e7b4567060725ba",
+      "mode": "100644",
+      "bytes": 1419
+    },
+    "src/utils/sorting.ts": {
+      "sha1": "51e5283af868b4108f3b507c959d4d45f45cbf84",
+      "mode": "100644",
+      "bytes": 2087
+    },
+    "src/utils/utils.ts": {
+      "sha1": "f1f50580486d80113b1c8f92220559b477fcbf65",
+      "mode": "100644",
+      "bytes": 4869
+    },
+    "tsconfig.json": {
+      "sha1": "2cccf0fc9a4b467de5885714c84cd307f49d8bb6",
+      "mode": "100644",
+      "bytes": 484
+    },
+    "vitest.config.mts": {
+      "sha1": "d0bd02c7a475be18d00f95a0e9ace438161896a4",
+      "mode": "100644",
+      "bytes": 981
+    },
+    "../LICENSE": {
+      "sha1": "be595ac54db717d018cee4500381d46b0e0d085b",
+      "mode": "100644",
+      "bytes": 1064
+    }
+  },
+  "storeUrl": "https://www.raycast.com/marcjulian/obsidian",
+  "storeId": "6090553e-ee96-4c89-af5c-e6c60fa551ba",
+  "popularityRank": 16
+}

@@ -1,0 +1,6 @@
+Obsidian extension for Tezbar
+Original Raycast Obsidian extension and resources by marcjulian and the
+contributors credited in upstream/package.json. The pinned repository and
+extension licenses are retained in LICENSE and licenses/UPSTREAM-OBSIDIAN-LICENSE.
+See UPSTREAM.json for the immutable source revision and Git blob inventory.
+Rust dependency notices are listed in licenses/THIRD_PARTY.md.
